@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toast Notification System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Notification System</h1>
+
+  <button onclick="notify('success','Operation successful')">Success</button>
+  <button onclick="notify('error','Something went wrong')">Error</button>
+  <button onclick="notify('info','This is an info message')">Info</button>
+</div>
+
+<div id="toasts"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
